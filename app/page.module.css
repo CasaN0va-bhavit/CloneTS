@@ -1,0 +1,61 @@
+.parent {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(13, 12, 12);
+}
+
+.landingDiv {
+    height: 90vh;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.tech{
+    font-size: 21.5vw;
+    color: #191919;
+    letter-spacing: 9px;
+    font-weight: 900;
+    margin-right: auto;
+    margin-left: auto;
+    outline: none;
+    text-align: center;
+}
+
+.syndicate {
+    font-size: 11.5vw;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #16e16e;
+    margin-top: -10vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+}
+
+.pic {
+    height: 45vw;
+    width: 45vw;
+    background: url(https://media.discordapp.net/attachments/741244174736556076/973287751468339200/unknown.png?width=513&height=513);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    transform: translateY(-47.5vw);
+    animation: animation 2s ease-in-out infinite;
+    transition: all 2s ease-in-out;
+    margin-top: 7vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes animation {
+    0% {
+        transform: translate(0, -47.5vw);
+    }
+    50% {
+        transform: translate(0, -49vw);
+    }
+    100% {
+        transform: translate(0, -47.5vw);
+    }
+}

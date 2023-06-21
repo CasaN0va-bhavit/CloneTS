@@ -1,0 +1,23 @@
+.parent {
+    background-color: rgb(13,12,12);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.learnDiv {
+    width: 100%;
+}
+
+.h1 {
+    font-size: 6vh;
+    font-weight: 800;
+    margin: 4vw 4vw;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 31.25vw);
+    margin: 2.5vw 5vw;
+}
+

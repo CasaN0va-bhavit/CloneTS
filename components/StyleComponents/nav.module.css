@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@500&display=swap');
+
+.bglogo {
+    background-image: url("https://www.techsyndicate.us/assets/images/ts.png");
+    background-size: cover;
+    background-position: center;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    position: absolute;
+}
+
+.nav {
+    background-color: rgb(13, 12, 12);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: normal;
+    align-items: normal;
+    position: relative;
+    z-index: 10;
+    font-family: 'Outfit', sans-serif;
+}
+
+.navUl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    margin-top: 2vw;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.aLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    cursor: pointer;
+    list-style: none;
+    margin-top: 2vw;
+}
+
+.pNavStyle {
+    text-decoration: none;
+    cursor: pointer;
+    color: #eee;
+    transition: all 0.5s ease;
+    margin-top: 0vw
+}
+
+.pNavStyle:hover {
+    transition: ease 0.2s all;
+    padding: 5px;
+    background-color: #16e16e;
+    border-radius: 7.5%;
+}
+
+.listItem {
+    display: block;
+    margin: 0 2vw;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5vw;
+    text-decoration: none;  
+    display: list-item;
+    text-align: -webkit-match-parent;
+}

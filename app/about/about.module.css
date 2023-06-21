@@ -1,0 +1,44 @@
+.aboutDiv {
+    display: flex;
+    width: 100%;
+    height: 51vw;
+    background-color: rgb(13,12,12);
+}
+
+.content {
+    margin: 12.5vw 5vw;
+}
+
+.text{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+.textp {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 50%;
+    font-size: 1.25vw;
+}
+
+.aboutImg {
+    text-align: center;
+}
+
+.img {
+    width: 50vw;
+    /* margin-left: 105%; */
+    margin-right: 40vw;
+    margin-top: 10vw;
+}
