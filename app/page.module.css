@@ -11,7 +11,7 @@
 }
 
 .tech{
-    font-size: 21.5vw;
+    font-size: 20vw;
     color: #191919;
     letter-spacing: 9px;
     font-weight: 900;
@@ -22,7 +22,7 @@
 }
 
 .syndicate {
-    font-size: 11.5vw;
+    font-size: 10vw;
     font-weight: 900;
     letter-spacing: 5px;
     color: #16e16e;
@@ -50,12 +50,12 @@
 
 @keyframes animation {
     0% {
-        transform: translate(0, -47.5vw);
+        transform: translate(0, -47vw);
     }
     50% {
         transform: translate(0, -49vw);
     }
     100% {
-        transform: translate(0, -47.5vw);
+        transform: translate(0, -47vw);
     }
 }

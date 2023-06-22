@@ -1,0 +1,169 @@
+.parent {
+    background-color: rgb(13,12,12);
+    height: 101vh;
+    overflow: hidden;
+}
+
+.main {
+    padding-bottom: 20vh;
+    margin-bottom: 30vh;
+    width: 100%;
+    height: auto;
+    margin-top: 3vw;
+}
+.h1 {
+    display: block;
+    font-size: 2em;
+    font-size: 3.5vw;
+    margin-left: 5vw !important;
+    letter-spacing: 1px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.dot1 {
+    margin-left: 11.5vw;
+    background: #4e4e4e;
+    height: 1.5vw;
+    width: 1.5vw;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 12.1vw;
+}
+
+.dot2 {
+    margin-left: 86%;
+    background: #16e16e;
+    height: 1.5vw;
+    width: 1.5vw;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 12.1vw;
+}
+
+.dot3 {
+    margin-left: 26.5%;
+    background: #16e16e;
+    height: 1.5vw;
+    width: 1.5vw;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 12.1vw;
+}
+.dot4 {
+    margin-left: 40.5%;
+    background: #16e16e;
+    height: 1.5vw;
+    width: 1.5vw;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 12.1vw;
+}
+.dot5 {
+    margin-left: 55%;
+    background: #16e16e;
+    height: 1.5vw;
+    width: 1.5vw;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 12.1vw;
+}
+.dot6 {
+    margin-left: 70% !important;
+    background: #16e16e;
+    height: 1.5vw;
+    width: 1.5vw;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 12.1vw;
+}
+
+.line {
+    width: 74.5%;
+    height: 0.75vw;
+    background: linear-gradient(to right, #4e4e4e 20%,#16e16e 0%, #16e16e 0%, #16e16e 100%);
+    margin: 14.9vw auto auto;
+    border-radius: 10vw;
+    display: block;
+}
+
+.event1 {
+    margin: 3.5vw 15vw;
+    height: 12.5vw;
+    background: #009e45;
+    position: absolute;
+    width: 20vw;
+    border-radius: 7.5px;
+}
+
+.name1 {
+    font-size: 1.8vw;
+    font-weight: 600;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: 1px;
+    margin-left: 1.5vw;
+}
+
+.date1 {
+    font-size: 1.25vw;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: -1.5vw 1.5vw;
+}
+.button1{
+    text-decoration: none;
+    color: -webkit-link;
+    cursor: pointer;
+}
+.but {
+    color: #16e16e;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    margin: 1.5vw;
+    border-radius: 5px;
+    width: 10vw;
+    font-size: 1.25vw;
+    background: #191919;
+    max-height: -3vw;
+    padding: 10px;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.event2{
+    margin: -15vw 31vw;
+    height: 8.5vw;
+    background: #009e45;
+    position: absolute;
+    width: 20vw;
+    border-radius: 7.5px; 
+}
+.event3{
+    margin: 3.5vw 45vw;
+    height: 8.5vw;
+    background: #009e45;
+    position: absolute;
+    width: 20vw;
+    border-radius: 7.5px; 
+}
+.event4{
+    margin: -15vw 61vw;
+    height: 8.5vw;
+    background: #009e45;
+    position: absolute;
+    width: 20vw;
+    border-radius: 7.5px; 
+}

@@ -1,0 +1,31 @@
+.main {
+    padding-top: 1.52vw;
+    padding-right: 2.51vw;
+    padding-bottom: 1.53vw;
+    padding-left: 2.52vw;
+    background-color: rgb(13, 12, 12);
+    height: 100vh;
+}
+
+.content {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.heading1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin: 0;
+}
