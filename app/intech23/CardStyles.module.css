@@ -1,0 +1,36 @@
+.card {
+    width: 20vw;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 20px;
+    height: 22.5vw;
+    padding: 20px;
+    transition-duration: 100ms;
+}
+.image {
+    width: 15%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.heading {
+    display: block;
+    font-size: 2em;
+    margin: 8px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+    font-weight: bold;
+}
+.para {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 8px;
+}
+
+.card:hover {
+    transform: rotateZ(-5deg);
+}

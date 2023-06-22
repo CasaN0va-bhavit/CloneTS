@@ -42,7 +42,7 @@ export default function Navbar() {
               listItem={styles.listItem}
               pNavStyle={styles.pNavStyle}
               text="Intech '23"
-              hrefA="#"
+              hrefA="/intech23"
             />
         </ul>
     </div>
