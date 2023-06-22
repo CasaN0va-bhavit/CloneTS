@@ -12,9 +12,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel='icon' href='C:/Users/bhavi/OneDrive/Desktop/TSClone/tsclone2/components/ts.png'/>
-      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )

@@ -4,21 +4,22 @@
     padding-bottom: 1.53vw;
     padding-left: 2.52vw;
     background-color: rgb(13, 12, 12);
-    height: 100vh;
+    height: auto;
+    display: block;
 }
 
-.content {
-    margin: 0 100px;
+.section1 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    margin: 25vh 15vh;
 }
 
-.text {
+.left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
 }
 
@@ -28,4 +29,163 @@
     font-weight: bolder;
     font-size: 3rem;
     margin: 0;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    color: #16e16e;
+}
+
+.para {
+    color: #fff;
+    font-size: 125%;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.greencolor {
+    color: #16e16e;
+}
+
+.register{
+    outline: none;
+    margin: 10px 20px 10px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1e1e1e;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.image {
+    width: 100vw;
+    /* margin: 20px; */
+    margin-top: -10vh;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+.idk {
+    border-color: #ffffff20;
+    width: 70%;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    margin: 50px auto;
+}
+
+.h1Dsc {
+    text-align: center;
+    color: #9e9e9e;
+    display: block;
+    font-size: 6vh;
+    font-weight: bolder;
+    margin: 0;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.regbar {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.discordChat {
+    margin-left: -100vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: fit-content;
+}
+
+.discordPanel {
+    width: 350px;
+    height: 400px;
+    left: 0%;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    overflow-clip-margin: content-box !important;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    overflow: clip !important;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50vw;
+}
+
+.hang {
+    font-size: 4vh;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-right: 50vh;
+    margin-bottom: 20vh;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+.pHang {
+    width: 50vh;
+    position: absolute;
+    right: 56.5vh;
+    margin-top: 2vh;
+    color: #939393;
+    font-size: 2.5vh;
+    /* margin-left: 50vh; */
+}
+
+.dscButton {
+    position: absolute;
+    margin-top: 30vh !important;
+    right: 75vh;
+    color: #5865f2 !important;
+    display: flex;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgBtn {
+    margin-right: 10px;
+    width: 30px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
