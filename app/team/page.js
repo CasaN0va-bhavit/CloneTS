@@ -109,7 +109,7 @@ export default function page() {
             <TeamCard
               key="16"
               name="Pakhi Bisht"
-              role="President"
+              role="Member"
               imgsrc="https://media.discordapp.net/attachments/984702920463384666/1096089093399646340/IMG-20221204-WA0013.jpg?width=295&height=295"
             />
             <TeamCard
