@@ -1,0 +1,20 @@
+.grid {
+    margin: 5vw 5vw;
+}
+
+.batch {
+    margin-top: -1.5vw;
+    margin-left: 2.5vw;
+    width: 100%;
+}
+
+.year {
+    display: block;
+    margin-block-start: -1.5em;
+    color: #16e16e;
+    font-size: 3.5vw;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}

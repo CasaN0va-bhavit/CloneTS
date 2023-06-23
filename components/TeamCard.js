@@ -8,6 +8,7 @@ export default function TeamCard(props) {
         <div className={styles.cred}>
         <p className={styles.name}>{props.name}</p>
         <p className={styles.role}>{props.role}</p>
+        <p className={styles.student}>{props.student}</p>
         </div>
     </div>
   )
