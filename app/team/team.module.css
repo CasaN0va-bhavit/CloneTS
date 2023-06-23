@@ -1,0 +1,78 @@
+.main {
+    width: 100%;
+    height: auto;
+    background-color: rgb(13, 12, 12);
+    /* display: flex; */
+    overflow: hidden;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vw 5vw;
+}
+
+.search {
+    display: flex;
+    margin-left: 65%;
+    margin-top: -7.5vw;
+    position: absolute;
+}
+
+.searchInput {
+    background: transparent;
+    color: grey;
+    border: none;
+    border-bottom: 2px solid grey;
+    border-radius: 0;
+    outline: none;
+    height: 2.5vw;
+    width: 19.5vw;
+    font-size: 1.25vw;
+    padding-bottom: 0.25vw;
+    transition: all .5s ease;
+}
+
+.card {
+    width: 27.5vw;
+    height: 15vw;
+    background: #171717;
+    border-radius: 7.5px;
+    margin-bottom: 2.5vw;
+    display: flex;
+}
+
+.image {
+    background: url(https://github.com/gamer-1478.png) center center / cover;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    margin: 2.5vw 2vw;
+}
+
+.cred {
+    margin-top: 1.75vw;
+}
+
+.name {
+    font-weight: light;
+    font-size: 1.75vw;
+    width: 5vw;
+    letter-spacing: 1px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.role {
+    color: #16e16e;
+    margin-top: -1.25vw;
+    letter-spacing: 1px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

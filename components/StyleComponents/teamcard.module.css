@@ -1,0 +1,43 @@
+.card {
+    width: 27.5vw;
+    height: 15vw;
+    background: #171717;
+    border-radius: 7.5px;
+    margin-bottom: 2.5vw;
+    display: flex;
+    margin: 0.5vw;
+    scroll-behavior: smooth;
+}
+
+.image {
+    border-radius: 100%;
+    margin: 2.5vw 2vw;
+    height: 10vw;
+    width: 10vw;
+}
+
+.cred {
+    margin-top: 1.75vw;
+}
+
+.name {
+    font-weight: light;
+    font-size: 1.75vw;
+    width: 5vw;
+    letter-spacing: 1px;
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.role {
+    color: #16e16e;
+    margin-top: -1.25vw;
+    letter-spacing: 1px;
+    display: block;
+    margin-block-start: 0.75em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,6 +18,8 @@
 }
 
 body {
+  font-family: 'Oleo Script Swash Caps', cursive !important;
+  font-family: 'Poppins', sans-serif !important;
   color: rgb(255,255,255);
   background: linear-gradient(
       to bottom,

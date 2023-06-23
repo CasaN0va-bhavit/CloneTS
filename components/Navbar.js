@@ -35,7 +35,7 @@ export default function Navbar() {
               listItem={styles.listItem}
               pNavStyle={styles.pNavStyle}
               text="Team"
-              hrefA="#"
+              hrefA="/team"
             />
             <ListItem 
               aLink={styles.aLink}

@@ -1,0 +1,11 @@
+.headings {
+    margin-top: 15vh;
+    margin-left: 10vh;
+    display: flex;
+}
+
+.heading {
+    padding: 2vh;
+    font-size: 5.5vh;
+    font-weight: 800;
+}

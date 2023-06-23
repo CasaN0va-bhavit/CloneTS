@@ -50,12 +50,12 @@
 
 @keyframes animation {
     0% {
-        transform: translate(0, -47vw);
+        transform: translate(0, -48vw);
     }
     50% {
         transform: translate(0, -49vw);
     }
     100% {
-        transform: translate(0, -47vw);
+        transform: translate(0, -48vw);
     }
 }
