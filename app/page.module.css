@@ -5,9 +5,11 @@
 }
 
 .landingDiv {
-    height: 90vh;
+    height: 85vh;
     width: 100%;
-    overflow-y: hidden;
+    margin-top: 4vh;
+    align-items: center;
+    align-self: center;
 }
 
 .tech{
@@ -50,12 +52,12 @@
 
 @keyframes animation {
     0% {
-        transform: translate(0, -48vw);
+        transform: translate(0, -47vw);
     }
     50% {
         transform: translate(0, -49vw);
     }
     100% {
-        transform: translate(0, -48vw);
+        transform: translate(0, -47vw);
     }
 }
