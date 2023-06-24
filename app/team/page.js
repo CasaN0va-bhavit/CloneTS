@@ -124,6 +124,12 @@ export default function page() {
               role="Member"
               imgsrc="https://media.discordapp.net/attachments/1099204898450571435/1102560708593463347/ss.png?width=463&height=463"
             />
+            <TeamCard
+              key="19"
+              name="Bhavit Grover"
+              role="Member (Me!!)"
+              imgsrc="https://pfps.gg/assets/pfps/9260-leaf-cat.png"
+            />
           </div>
         </div>
     </div>
