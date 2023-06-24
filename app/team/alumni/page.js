@@ -104,7 +104,7 @@ export default function page() {
             <div className={styles.grid}>
                 <br />
                 <div className={styles.batch}>
-                    <h1 className={styles.year}>2021-2022</h1>
+                    <h1 className={styles.year}>202-2021</h1>
                     <div className={otherStyles.grid} style={{marginLeft: "-1vh", "marginTop": "-1vh"}}>
                     <TeamCard
                         key="1"
@@ -140,6 +140,129 @@ export default function page() {
                         role="Member"
                         imgsrc="https://github.com/upspal.png"
                         student="Student at SNUT"
+                    />
+                    </div>
+                </div>
+            </div>
+            <div className={styles.grid}>
+                <br />
+                <div className={styles.batch}>
+                    <h1 className={styles.year}>2019-2020</h1>
+                    <div className={otherStyles.grid} style={{marginLeft: "-1vh", "marginTop": "-1vh"}}>
+                    <TeamCard
+                        key="1"
+                        name="Anurag Parida"
+                        role="President"
+                        imgsrc="https://github.com/anuragparida.png"
+                        student="Student at MUJ"
+                    />
+                    <TeamCard
+                        key="2"
+                        name="Sarthak Singhal"
+                        role="Secretary"
+                        imgsrc="https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/sarthaksinghal.png?raw=true"
+                        student="Student at HKUST"
+                    />
+                    <TeamCard
+                        key="3"
+                        name="Ansh Deo Singh"
+                        role="Member"
+                        imgsrc="https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/anshdeosingh.jpg?raw=true"
+                        student="Student"
+                    />
+                    <TeamCard
+                        key="4"
+                        name="Priyanshu Bhandari"
+                        role="Member"
+                        imgsrc="https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/priyanshubhandari.jpg?raw=true"
+                        student="Student"
+                    />
+                    </div>
+                </div>
+            </div>
+            <div className={styles.grid}>
+                <br />
+                <div className={styles.batch}>
+                    <h1 className={styles.year}>2018-2019</h1>
+                    <div className={otherStyles.grid} style={{marginLeft: "-1vh", "marginTop": "-1vh"}}>
+                    <TeamCard
+                        key="1"
+                        name="Padam Chopra"
+                        role="President"
+                        imgsrc="https://github.com/padamchopra.png"
+                        student="Student at Waterloo University"
+                    />
+                    <TeamCard
+                        key="2"
+                        name="Sarthak Singhal"
+                        role="Secretary"
+                        imgsrc="https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/aryamanagrawal.jpg?raw=true"
+                        student="Student at UMass Amherst"
+                    />
+                    <TeamCard
+                        key="3"
+                        name="Ansh Deo Singh"
+                        role="Member"
+                        imgsrc="https://github.com/ArnabSagar.png"
+                        student="Student at UGuelph"
+                    />
+                    </div>
+                </div>
+            </div>
+            <div className={styles.grid}>
+                <br />
+                <div className={styles.batch}>
+                    <h1 className={styles.year}>2017-2018</h1>
+                    <div className={otherStyles.grid} style={{marginLeft: "-1vh", "marginTop": "-1vh"}}>
+                    <TeamCard
+                        key="1"
+                        name="Ashwin Tewary"
+                        role="President"
+                        imgsrc="https://github.com/ashwintewary.png"
+                        student="Student at USydney"
+                    />
+                    <TeamCard
+                        key="2"
+                        name="Gursimran Singh"
+                        role="Secretary"
+                        imgsrc="https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/gursimransingh.jpg?raw=true"
+                        student="Student at GaTech"
+                    />
+                    </div>
+                </div>
+            </div>
+            <div className={styles.grid}>
+                <br />
+                <div className={styles.batch}>
+                    <h1 className={styles.year}>2016-2017</h1>
+                    <div className={otherStyles.grid} style={{marginLeft: "-1vh", "marginTop": "-1vh"}}>
+                    <TeamCard
+                        key="1"
+                        name="Satwik Dwivedi"
+                        role="President"
+                        imgsrc="https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/satwikdwivedi.jpg?raw=true"
+                        student="Student"
+                    />
+                    <TeamCard
+                        key="2"
+                        name="Mudit Sharma"
+                        role="Member"
+                        imgsrc="https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/muditsharma.jpg?raw=true"
+                        student="SWE at Oracle"
+                    />
+                    <TeamCard
+                        key="3"
+                        name="Shubh Jaroria"
+                        role="Member"
+                        imgsrc="https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/shubhjaroria.jpg?raw=true"
+                        student="Student"
+                    />
+                    <TeamCard
+                        key="4"
+                        name="Shivam Garg"
+                        role="Member"
+                        imgsrc="https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/shivamgarg.jpg?raw=true"
+                        student="Student"
                     />
                     </div>
                 </div>

@@ -85,7 +85,7 @@ export default function page() {
             <TeamCard
               key="12"
               name="Jai Dugal"
-              role="Member"
+              role="Legend"
               imgsrc="https://cdn.discordapp.com/attachments/938649392670441502/989024591970193438/IMG-20220614-WA0000.jpg"
             />
             <TeamCard
