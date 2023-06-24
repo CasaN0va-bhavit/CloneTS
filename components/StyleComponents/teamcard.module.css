@@ -10,6 +10,7 @@
 }
 
 .image {
+    object-fit: cover;
     border-radius: 100%;
     margin: 2.5vw 2vw;
     height: 10vw;
